@@ -1,0 +1,139 @@
+﻿.contents {
+	float: right;
+	width: 791px;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+.contents .topic {
+	height: 30px;
+	margin: 0 0 8px 0;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.contents .box-banner {
+	width: 100%;
+	margin: 0 0 8px 0;
+}
+
+.contents .box {
+	margin: 0 0 16px 0;
+}
+
+.contents .box p {
+	line-height: 28px;
+	margin: 0;
+}
+
+.contents .box ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contents .box li {
+	margin: 0;
+	padding: 0;
+	line-height: 28px;
+}
+
+.contents .split {
+	float: left;
+	width: 253px;
+	margin: 0 16px 0 0;
+}
+
+.contents .split.mr0 {
+	margin-right: 0;
+}
+
+
+/* pick up
+----------------------------*/
+
+.contents .pickup {
+	margin-bottom: 16px;
+}
+
+.contents .pickup ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contents .pickup ul li {
+	float: left;
+	width: 163px;
+	margin: 0 16px 0 0;
+	zoom: 1;
+	cursor: pointer;
+}
+
+.contents .pickup li img {
+	width: 163px;
+	height: 163px;
+	margin-bottom: 8px;
+	background-color: #fff;
+}
+
+.contents .pickup li img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+}
+
+.contents .pickup .vertical-button {
+	float: left;
+	width: 29px;
+	height: 77px;
+	line-height: 77px;
+	margin: 43px 0 0 0;
+	padding: 0;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	outline: 0;
+	cursor: pointer;
+}
+
+.contents .pickup .vertical-button.red {
+	color: #fff;
+	background: #d14836;
+	background: linear-gradient(to bottom, #ff5e3a, #ff2a68);
+	background: -ms-linear-gradient(top, #ff5e3a, #ff2a68);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff5e3a), to(#ff2a68));
+	background: -moz-linear-gradient(top, #ff5e3a, #ff2a68);　/* Firefox用 */  
+	zoom: 1;
+}
+
+.contents .pickup .vertical-button.left {
+	margin-right: 16px;
+}
+
+
+/* category
+--------------------------*/
+
+.category-header {
+	width: 100%;
+	height: 56px;
+	margin: 0 0 8px 0;
+}
+
+.category-header img {
+	float: left;
+	display: block;
+	height: 100%;
+}
+
+.category-header span {
+	float: left;
+	display: block;
+	margin-left: 8px;
+	line-height: 56px;
+}
+

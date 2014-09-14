@@ -1,0 +1,122 @@
+﻿@charset "UTF-8";
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body > #sidebar {
+	height: auto;
+}
+
+body {
+	text-align: justify;
+	text-justify: inter-ideograph;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-align: left;
+	overflow-y: scroll;
+	*font-size: small;
+	*font: x-small;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+a {
+	margin: 0;
+	color: #6f584a;
+	text-decoration: none;
+}
+a:visited {
+	color: #6f584a;
+}
+
+a:focus {
+	color: #6f584a;
+}
+
+a:active {
+	color: #6f584a;
+}
+
+a:hover {
+	color: #6f584a;
+	text-decoration: underline;
+}
+
+a:avtive {
+	color: #5856D6;
+}
+
+input[type=text],
+select {
+	margin: 2px 0;
+}
+
+.button {
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	margin: 0 4px;
+	padding: 0px 16px;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	outline: 0;
+	cursor: pointer;
+}
+
+.button.first {
+	margin: 0 4px 0 0;
+}
+
+.button.last {
+	margin: 0 0 0 4px;
+}
+
+.button:hover,
+.button:focus {
+	-webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+
+.button.brown {
+	color: #fff;
+	background: #6f584a;
+}
+
+.button.red {
+	color: #fff;
+	background: #d14836;
+	background: linear-gradient(to bottom, #ff5e3a, #ff2a68);
+	background: -ms-linear-gradient(top, #ff5e3a, #ff2a68);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff5e3a), to(#ff2a68));
+	background: -moz-linear-gradient(top, #ff5e3a, #ff2a68);　/* Firefox用 */  
+	zoom: 1;
+}

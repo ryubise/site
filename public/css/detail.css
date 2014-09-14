@@ -1,0 +1,130 @@
+.contents {
+	float: right;
+	width: 791px;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+.topic {
+	height: 30px;
+	margin: 0 0 8px 0;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.goods {
+	padding: 16px;
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.goods .title {
+	padding: 0;
+	margin: 0 0 8px 0;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Lucida Grande','Segoe UI','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo,'メイリオ',sans-serif;	
+}
+
+.goods .discription {
+	margin: 0 0 16px 0;
+}
+
+.goods .top_image {
+	float: left;
+	width: 350px;
+	height: 420px;
+	margin: 0 16px 16px 0;
+}
+
+.goods .thumbnail {
+	float: left;
+}
+
+.goods .thumbnail .box {
+	width: 372px;
+}
+
+.goods .thumbnail .box img {
+	float: left;
+	width: 85px;
+	height: 102px;
+	margin: 0 8px 8px 0;
+}
+
+.goods .thumbnail .box img:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+}
+
+.goods .thumbnail .infomation {
+	width: 376px;
+	margin: 8px 0 16px 0;
+	font-size: 11px;
+}
+
+.goods .list {
+	float: left;
+	margin: 0 0 16px 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.goods .list th {
+	text-align: center;
+	border-bottom: 1px solid #f1e9de;
+	line-height: 32px;
+}
+
+.goods .list td {
+	width: 86px;
+	padding: 4px 0;
+	border-bottom: 1px solid #f1e9de;
+	line-height: 32px;
+	text-align: center;
+}
+
+.goods .list .name {
+	width: 350px;
+	text-align: left;
+}
+
+.goods .list td input {
+	width: 35px;
+	margin-right: 8px;
+	text-align: right;
+}
+
+.goods .list .stock {
+	width: 60px;
+}
+
+.notice div {
+	float: right;
+	padding: 8px;
+	margin: 0 0 16px 0;
+	background: #f1e9de;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.right {
+	float: right;
+}
+
+.right .mr0 {
+	margin-right: 0;
+}

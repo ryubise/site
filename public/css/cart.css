@@ -1,0 +1,157 @@
+.contents {
+	float: right;
+	width: 791px;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+.contents h3 {
+	margin: 0 0 16px 0;
+}
+
+.infomation {
+	margin: 0 0 16px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+.cart {
+	padding: 16px;
+	margin-bottom: 16px;
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.cart .discription {
+	margin: 0 0 16px 0;
+}
+
+.cart .list {
+	float: left;
+	margin: 0 0 16px 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.cart .list th {
+	text-align: center;
+}
+
+.cart .list th {
+	text-align: center;
+	border-bottom: 1px solid #f1e9de;
+	line-height: 32px;
+}
+
+.cart .list td {
+	width: 86px;
+	padding: 4px 0;
+	border-bottom: 1px solid #f1e9de;
+	line-height: 32px;
+	text-align: center;
+}
+
+.cart .list .name {
+	width: 350px;
+	text-align: left;
+}
+
+.icon-wait {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 4px;
+	background-color: #FC5053;
+}
+
+.icon-reserve {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 4px;
+	background-color: #59B32C;
+}
+
+.cart .list td input {
+	width: 40px;
+	margin-right: 8px;
+	text-align: right;
+}
+
+.cart .list .delete {
+	width: 60px;
+}
+
+.cart .list .delete a {
+	display: inline-block;
+	padding: 0 12px;
+}
+
+.cart .list .delete a:hover {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #dfd7c9;
+}
+
+.notice div {
+	float: left;
+	padding: 8px;
+	margin: 0 0 16px 0;
+	background: #f1e9de;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.right .mr0 {
+	margin-right: 0;
+}
+
+.cart .order {
+	float: left;
+	margin: 0 0 16px 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.cart .order th,
+.cart .order td {
+	padding: 4px 0;
+	border-bottom: 1px solid #f1e9de;
+	line-height: 32px;
+	text-align: center;
+}
+
+.cart .order th {
+	width: 144px;
+	padding-right: 4px;
+}
+
+.cart .order td {
+	width: 176px;
+	padding-left: 4px;
+}

@@ -1,0 +1,4 @@
+(function(flwebgl) {
+flwebgl.content = {"header":{"formatVersion":0.1,"flashProVersion":"WIN 14,0,0,110","platform":"Windows","stageSize":{"width":550,"height":400},"stageColor":"#FFFFFF","frameRate":24,"loop":true,"readable":false,"sceneTimelines":[0]},"fills":[[2,"s","S_1","T"]],"shapes":[[1,[2,[321.75,140.15,270.5,108.95,219.2,140.15,198,215.45,219.2,290.75,270.5,321.95,321.75,290.75,343,215.45,300.55,108.95,240.45,108.95,198,171.35,198,259.55,240.45,321.95,300.55,321.95,343,259.55,343,171.35],[3,2,0,6,4,3,0,2,1,6,3,7,5,4,6,7,3,0],[],[],[0,8,1,1,9,2,2,10,3,3,11,4,4,12,5,5,13,6,6,14,7,7,15,0]]]],"timelines":[[0,"シーン 1",true,[],[[1,1,-1,0]],[]]]}
+})(flwebgl = flwebgl||{});
+var flwebgl;

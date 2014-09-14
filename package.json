@@ -1,0 +1,17 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"dependencies": {
+		"katana": "0.4.0",
+		"joose": "*",
+		"ejs": "*",
+		"grunt": "*",
+		"grunt-contrib-jshint": "*"
+	},
+	"katana": {
+		"modules": {
+			"common": { "enabled": "true" },
+			"auth": { "enabled": "true" }
+		}
+	}
+}

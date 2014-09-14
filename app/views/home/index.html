@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<? include ../element/head.html ?>
+    </head>
+
+    <body class="container" style="padding: 20px 0">
+
+		<? include ../element/header.html ?>
+
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+
+			<? include ../element/left.html ?>
+
+            <!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+
+				<? include ../element/content-header.html ?>
+
+                <!-- Main content -->
+                <section class="content">
+					<div>アカウントID：<input type="text" class="form-control" required/></div>
+                </section><!-- /.content -->
+
+            </aside><!-- /.right-side -->
+        </div><!-- ./wrapper -->
+
+        <!-- add new calendar event modal -->
+
+		<? include ../element/scripts.html ?>
+
+    </body>
+</html>
